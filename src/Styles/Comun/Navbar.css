@@ -1,0 +1,35 @@
+
+.Navbar-container {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  padding: 30px 40px 40px 40px;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+  border: 1px solid green;
+}
+
+.logo-container {
+  width: 200px;
+  height: 35px;
+  border: 1px solid green;
+}
+
+.logo {
+  color: var(--text-primary);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -1.2px;
+  font-family: Manrope;
+}
+
+.logo-span{
+    color: var(--text-secondary);
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -1.2px;
+  font-family: Manrope;
+}
