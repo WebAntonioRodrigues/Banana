@@ -1,23 +1,24 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Comun/Navbar';
-import Home from './Pages/Home/home';
-import "../src/Styles/Style.css";
+import Home from './Pages/Home';
+import Epoca from './Pages/Epoca';
+import Epocas from './Pages/Epocas';
+import Jogador from './Pages/Jogador';
+import Treinador from './Pages/Treinador';
+import '../src/Styles/Style.css';
 
 function App() {
-	
-
-  return (
+	return (
 		<BrowserRouter>
-			
-				<Navbar></Navbar>
+			<Navbar></Navbar>
 
-				<Routes>
-					<Route path='/' element={<Home></Home>} />
-			
-				</Routes>
-
-				
-	
+			<Routes>
+				<Route path='/' element={<Home></Home>} />
+				<Route path='/epocas' element={<Epocas />} />
+				<Route path='/epocas/:id' element={<Epoca />} />
+				<Route path='/jogadores/:id' element={<Jogador />} />
+				<Route path='/treinadores/:id' element={<Treinador />} />
+			</Routes>
 		</BrowserRouter>
 	);
 }

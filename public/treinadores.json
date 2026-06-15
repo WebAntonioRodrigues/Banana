@@ -1,0 +1,495 @@
+[
+	{
+		"id": "jorge-jesus",
+		"nome": "Jorge Jesus",
+		"nome_completo": "Jorge Fernando Pinheiro de Jesus",
+		"nacionalidade": "Portugal",
+		"nascimento": "1954-07-24",
+		"naturalidade": "Amadora",
+		"licenca": "UEFA Pro",
+		"situacao": "No ativo",
+		"agente": "YES SPORTS",
+		"motivo_saida": "Despedido após derrota frente ao FC Porto (3-0 Taça de Portugal)",
+		"premios": ["Treinador do mês - Setembro 2021"],
+		"epocas": [
+			{
+				"id": "2021-22",
+				"periodo": "Julho 2021 — Dezembro 2021",
+				"trofeus": [],
+				"competicoes": [
+					{
+						"nome": "Primeira Liga",
+						"jogos": 15,
+						"vitorias": 12,
+						"empates": 1,
+						"derrotas": 2,
+						"golos_marcados": 46,
+						"golos_sofridos": 12
+					},
+					{
+						"nome": "Taça da Liga",
+						"jogos": 2,
+						"vitorias": 1,
+						"empates": 1,
+						"derrotas": 0,
+						"golos_marcados": 6,
+						"golos_sofridos": 3
+					},
+					{
+						"nome": "Taça de Portugal",
+						"jogos": 3,
+						"vitorias": 2,
+						"empates": 0,
+						"derrotas": 1,
+						"golos_marcados": 6,
+						"golos_sofridos": 5
+					},
+					{
+						"nome": "Champions League (Qual.)",
+						"jogos": 4,
+						"vitorias": 3,
+						"empates": 1,
+						"derrotas": 0,
+						"golos_marcados": 6,
+						"golos_sofridos": 1
+					},
+					{
+						"nome": "Champions League",
+						"jogos": 6,
+						"vitorias": 2,
+						"empates": 2,
+						"derrotas": 2,
+						"golos_marcados": 7,
+						"golos_sofridos": 9
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "nelson-verissimo",
+		"nome": "Nélson Veríssimo",
+		"nome_completo": "Nélson Alexandre da Silva Veríssimo",
+		"nacionalidade": "Portugal",
+		"nascimento": "1977-04-17",
+		"naturalidade": "Vila Franca de Xira",
+		"licenca": "UEFA Pro",
+		"situacao": "No ativo",
+		"agente": null,
+		"motivo_saida": "Fim de contrato — substituído por Roger Schmidt",
+		"premios": [],
+		"epocas": [
+			{
+				"id": "2021-22",
+				"periodo": "Dezembro 2021 — Junho 2022",
+				"trofeus": [],
+				"competicoes": [
+					{
+						"nome": "Primeira Liga",
+						"jogos": 19,
+						"vitorias": 11,
+						"empates": 4,
+						"derrotas": 4,
+						"golos_marcados": 32,
+						"golos_sofridos": 18
+					},
+					{
+						"nome": "Taça da Liga",
+						"jogos": 2,
+						"vitorias": 0,
+						"empates": 1,
+						"derrotas": 1,
+						"golos_marcados": 2,
+						"golos_sofridos": 3
+					},
+					{
+						"nome": "Champions League",
+						"jogos": 4,
+						"vitorias": 1,
+						"empates": 2,
+						"derrotas": 1,
+						"golos_marcados": 7,
+						"golos_sofridos": 8
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "roger-schmidt",
+		"nome": "Roger Schmidt",
+		"nome_completo": "Roger Schmidt",
+		"nacionalidade": "Alemanha",
+		"nascimento": "1967-03-13",
+		"naturalidade": "Kierspe",
+		"licenca": "UEFA Pro",
+		"situacao": "No ativo",
+		"agente": null,
+		"motivo_saida": "Despedido após mau início de época 2024/25",
+		"premios": [
+			"Melhor treinador Liga Portuguesa (2022/23)",
+			"Treinador do mês - Agosto 2022",
+			"Treinador do mês - Outubro 2022",
+			"Treinador do mês - Novembro 2022",
+			"Treinador do mês - Dezembro 2022",
+			"Treinador do mês - Janeiro 2023"
+		],
+		"epocas": [
+			{
+				"id": "2022-23",
+				"periodo": "Julho 2022 — Junho 2023",
+				"trofeus": ["Primeira Liga"],
+				"competicoes": [
+					{
+						"nome": "Primeira Liga",
+						"jogos": 34,
+						"vitorias": 28,
+						"empates": 3,
+						"derrotas": 3,
+						"golos_marcados": 82,
+						"golos_sofridos": 20
+					},
+					{
+						"nome": "Taça de Portugal",
+						"jogos": 4,
+						"vitorias": 2,
+						"empates": 2,
+						"derrotas": 0,
+						"golos_marcados": 5,
+						"golos_sofridos": 2
+					},
+					{
+						"nome": "Taça da Liga",
+						"jogos": 3,
+						"vitorias": 2,
+						"empates": 1,
+						"derrotas": 0,
+						"golos_marcados": 6,
+						"golos_sofridos": 3
+					},
+					{
+						"nome": "Champions League (Qual.)",
+						"jogos": 4,
+						"vitorias": 4,
+						"empates": 0,
+						"derrotas": 0,
+						"golos_marcados": 12,
+						"golos_sofridos": 2
+					},
+					{
+						"nome": "Champions League",
+						"jogos": 10,
+						"vitorias": 6,
+						"empates": 3,
+						"derrotas": 1,
+						"golos_marcados": 26,
+						"golos_sofridos": 13
+					}
+				]
+			},
+			{
+				"id": "2023-24",
+				"periodo": "Julho 2023 — Junho 2024",
+				"trofeus": ["Supertaça Cândido de Oliveira"],
+				"competicoes": [
+					{
+						"nome": "Supertaça",
+						"jogos": 1,
+						"vitorias": 1,
+						"empates": 0,
+						"derrotas": 0,
+						"golos_marcados": 2,
+						"golos_sofridos": 0
+					},
+					{
+						"nome": "Primeira Liga",
+						"jogos": 34,
+						"vitorias": 25,
+						"empates": 5,
+						"derrotas": 4,
+						"golos_marcados": 77,
+						"golos_sofridos": 28
+					},
+					{
+						"nome": "Taça de Portugal",
+						"jogos": 6,
+						"vitorias": 4,
+						"empates": 1,
+						"derrotas": 1,
+						"golos_marcados": 14,
+						"golos_sofridos": 8
+					},
+					{
+						"nome": "Taça da Liga",
+						"jogos": 3,
+						"vitorias": 2,
+						"empates": 1,
+						"derrotas": 0,
+						"golos_marcados": 7,
+						"golos_sofridos": 2
+					},
+					{
+						"nome": "Champions League",
+						"jogos": 6,
+						"vitorias": 1,
+						"empates": 1,
+						"derrotas": 4,
+						"golos_marcados": 7,
+						"golos_sofridos": 11
+					},
+					{
+						"nome": "UEFA Europa League",
+						"jogos": 6,
+						"vitorias": 3,
+						"empates": 2,
+						"derrotas": 1,
+						"golos_marcados": 7,
+						"golos_sofridos": 5
+					}
+				]
+			},
+			{
+				"id": "2024-25",
+				"periodo": "Julho 2024 — Agosto 2024",
+				"trofeus": [],
+				"competicoes": [
+					{
+						"nome": "Primeira Liga",
+						"jogos": 4,
+						"vitorias": 2,
+						"empates": 1,
+						"derrotas": 1,
+						"golos_marcados": 5,
+						"golos_sofridos": 3
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "bruno-lage",
+		"nome": "Bruno Lage",
+		"nome_completo": "Bruno Miguel Borges Lage",
+		"nacionalidade": "Portugal",
+		"nascimento": "1976-05-13",
+		"naturalidade": "Lisboa",
+		"licenca": "UEFA Pro",
+		"situacao": "No ativo",
+		"agente": null,
+		"motivo_saida": "Despedido após mau início de época 2025/26. Derrota com Qarabag",
+		"premios": ["Treinador do mês - Novembro 2024", "Treinador do mês - Fevereiro 2025", "Treinador do mês - Março 2025", "Treinador do mês - Abril 2025"],
+		"epocas": [
+			{
+				"id": "2024-25",
+				"periodo": "Setembro 2024 — Junho 2025",
+				"trofeus": ["Taça da Liga"],
+				"competicoes": [
+					{
+						"nome": "Primeira Liga",
+						"jogos": 30,
+						"vitorias": 23,
+						"empates": 4,
+						"derrotas": 3,
+						"golos_marcados": 79,
+						"golos_sofridos": 25
+					},
+					{
+						"nome": "Taça de Portugal",
+						"jogos": 7,
+						"vitorias": 6,
+						"empates": 0,
+						"derrotas": 1,
+						"golos_marcados": 23,
+						"golos_sofridos": 4
+					},
+					{
+						"nome": "Taça da Liga",
+						"jogos": 3,
+						"vitorias": 2,
+						"empates": 1,
+						"derrotas": 0,
+						"golos_marcados": 7,
+						"golos_sofridos": 1
+					},
+					{
+						"nome": "Champions League",
+						"jogos": 12,
+						"vitorias": 5,
+						"empates": 2,
+						"derrotas": 5,
+						"golos_marcados": 21,
+						"golos_sofridos": 19
+					},
+					{
+						"nome": "Mundial de Clubes FIFA",
+						"jogos": 4,
+						"vitorias": 2,
+						"empates": 1,
+						"derrotas": 1,
+						"golos_marcados": 10,
+						"golos_sofridos": 6
+					}
+				]
+			},
+			{
+				"id": "2025-26",
+				"periodo": "Julho 2025 — Setembro 2025",
+				"trofeus": ["Supertaça Cândido de Oliveira"],
+				"competicoes": [
+					{
+						"nome": "Primeira Liga",
+						"jogos": 4,
+						"vitorias": 3,
+						"empates": 1,
+						"derrotas": 0,
+						"golos_marcados": 7,
+						"golos_sofridos": 2
+					},
+					{
+						"nome": "Supertaça",
+						"jogos": 1,
+						"vitorias": 1,
+						"empates": 0,
+						"derrotas": 0,
+						"golos_marcados": 1,
+						"golos_sofridos": 0
+					},
+					{
+						"nome": "Champions League (Qual.)",
+						"jogos": 4,
+						"vitorias": 3,
+						"empates": 1,
+						"derrotas": 0,
+						"golos_marcados": 5,
+						"golos_sofridos": 0
+					},
+					{
+						"nome": "Champions League",
+						"jogos": 1,
+						"vitorias": 0,
+						"empates": 0,
+						"derrotas": 1,
+						"golos_marcados": 2,
+						"golos_sofridos": 3
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "jose-mourinho",
+		"nome": "José Mourinho",
+		"nome_completo": "José Mário dos Santos Mourinho Félix",
+		"nacionalidade": "Portugal",
+		"nascimento": "1963-01-26",
+		"naturalidade": "Setúbal",
+		"licenca": "UEFA Pro",
+		"situacao": "No ativo",
+		"agente": null,
+		"motivo_saida": null,
+		"premios": [],
+		"epocas": [
+			{
+				"id": "2025-26",
+				"periodo": "Setembro 2025 — Junho 2026",
+				"trofeus": [],
+				"competicoes": [
+					{
+						"nome": "Primeira Liga",
+						"jogos": 30,
+						"vitorias": 20,
+						"empates": 10,
+						"derrotas": 0,
+						"golos_marcados": 67,
+						"golos_sofridos": 23
+					},
+					{
+						"nome": "Taça de Portugal",
+						"jogos": 4,
+						"vitorias": 3,
+						"empates": 0,
+						"derrotas": 1,
+						"golos_marcados": 6,
+						"golos_sofridos": 1
+					},
+					{
+						"nome": "Taça da Liga",
+						"jogos": 2,
+						"vitorias": 1,
+						"empates": 0,
+						"derrotas": 1,
+						"golos_marcados": 4,
+						"golos_sofridos": 3
+					},
+					{
+						"nome": "Champions League",
+						"jogos": 9,
+						"vitorias": 3,
+						"empates": 0,
+						"derrotas": 6,
+						"golos_marcados": 9,
+						"golos_sofridos": 12
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "marco-silva",
+		"nome": "Marco Silva",
+		"nome_completo": "Marco Alexandre Saraiva da Silva",
+		"nacionalidade": "Portugal",
+		"nascimento": "1977-07-12",
+		"naturalidade": "Lisboa",
+		"licenca": "UEFA Pro",
+		"situacao": "No ativo",
+		"agente": "GestiFute",
+		"motivo_saida": null,
+		"premios": [],
+		"epocas": [
+			{
+				"id": "2026-27",
+				"periodo": "Junho 2026 — Presente",
+				"trofeus": [],
+				"competicoes": [
+					{
+						"nome": "Primeira Liga",
+						"jogos": null,
+						"vitorias": null,
+						"empates": null,
+						"derrotas": null,
+						"golos_marcados": null,
+						"golos_sofridos": null
+					},
+					{
+						"nome": "Taça de Portugal",
+						"jogos": null,
+						"vitorias": null,
+						"empates": null,
+						"derrotas": null,
+						"golos_marcados": null,
+						"golos_sofridos": null
+					},
+					{
+						"nome": "Taça da Liga",
+						"jogos": null,
+						"vitorias": null,
+						"empates": null,
+						"derrotas": null,
+						"golos_marcados": null,
+						"golos_sofridos": null
+					},
+					{
+						"nome": "UEFA Europa League",
+						"jogos": null,
+						"vitorias": null,
+						"empates": null,
+						"derrotas": null,
+						"golos_marcados": null,
+						"golos_sofridos": null
+					}
+				]
+			}
+		]
+	}
+]

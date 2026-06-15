@@ -1,0 +1,46 @@
+.SubNavbar-container {
+	display: flex;
+	margin: 0 auto;
+	width: 60%;
+	height: 50px;
+	padding: 25px 20px 20px 40px;
+	align-items: center;
+
+	border: 1px solid green;
+}
+
+.info-container {
+    display: flex;
+   
+	width: 2000px;
+	height: 35px;
+	border: 1px solid green;
+}
+
+.info {
+	color: var(--text-primary);
+	font-weight: 200;
+	font-size: 14px;
+	line-height: 32px;
+	letter-spacing: -1.2px;
+	font-family: inter;
+}
+
+.info-span {
+	color: var(--text-secondary);
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: -1.2px;
+	font-family: Manrope;
+}
+
+.info-date {
+	color: var(--text-primary);
+	font-weight: 100;
+	font-size: 10px;
+	line-height: 32px;
+	letter-spacing: -1.5px;
+	font-family: inter;
+    margin-top: 8px;
+}

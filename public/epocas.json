@@ -1,0 +1,42 @@
+[
+	{
+		"id": "2021-22",
+		"epoca": "2021/22",
+		"treinadores": ["Jorge Jesus", "Nélson Veríssimo"],
+		"posicao_liga": 3,
+		"trofeus": [],
+		"europa": "Champions League — Quartos de Final"
+	},
+	{
+		"id": "2022-23",
+		"epoca": "2022/23",
+		"treinadores": ["Roger Schmidt"],
+		"posicao_liga": 1,
+		"trofeus": ["Primeira Liga"],
+		"europa": "Champions League — Quartos de Final"
+	},
+	{
+		"id": "2023-24",
+		"epoca": "2023/24",
+		"treinadores": ["Roger Schmidt"],
+		"posicao_liga": 2,
+		"trofeus": ["Supertaça Cândido de Oliveira"],
+		"europa": "Champions League — Fase de Grupos → Europa League Quartos de Final"
+	},
+	{
+		"id": "2024-25",
+		"epoca": "2024/25",
+		"treinadores": ["Roger Schmidt", "Bruno Lage"],
+		"posicao_liga": 2,
+		"trofeus": ["Taça da Liga"],
+		"europa": "Champions League — Oitavos de Final"
+	},
+	{
+		"id": "2025-26",
+		"epoca": "2025/26",
+		"treinadores": ["Bruno Lage", "José Mourinho"],
+		"posicao_liga": 3,
+		"trofeus": ["Supertaça Cândido de Oliveira"],
+		"europa": "Champions League — Playoff de acesso aos Oitavos de Final"
+	}
+]
