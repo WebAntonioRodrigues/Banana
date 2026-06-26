@@ -1,35 +1,66 @@
-
-.Navbar-container {
-  display: flex;
-  width: 100%;
-  height: 60px;
-  padding: 30px 40px 40px 40px;
-  align-items: center;
-  position: relative;
-  z-index: 100;
-  border: 1px solid green;
+.navbar {
+	background-color: var(--primary-color);
+	padding: 10px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid var(--border-color);
 }
 
-.logo-container {
-  width: 200px;
-  height: 35px;
-  border: 1px solid green;
+.navbar-brand {
+	display: flex;
+	align-items: center;
+	gap: 12px;
 }
 
-.logo {
-  color: var(--text-primary);
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 32px;
-  letter-spacing: -1.2px;
-  font-family: Manrope;
+.navbar-logo {
+	width: 50px;
+	height: 50px;
+  
+
+	/* border: 1px solid green; */
 }
 
-.logo-span{
-    color: var(--text-secondary);
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 32px;
-  letter-spacing: -1.2px;
-  font-family: Manrope;
+.navbar-titles {
+	display: flex;
+	flex-direction: column;
+}
+
+.navbar-title {
+	color: var(--text-primary);
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1.4px;
+  font-family: Montserrat;
+}
+
+.navbar-subtitle {
+	color: var(--accent-gold);
+	font-size: 11px;
+	letter-spacing: 1px;
+  font-family: Inter;
+}
+
+.navbar-links {
+	display: flex;
+	gap: 32px;
+
+
+}
+
+.navbar-link {
+	color: #aaaaaa;
+	text-decoration: none;
+	font-family: Inter;
+  font-size: 12px;
+	padding-bottom: 4px;
+}
+
+.navbar-link:hover {
+  color: var(--accent-gold);
+  border-bottom: 1px solid var(--accent-gold);
+}
+
+.navbar-link.active {
+  border-bottom: 1px solid var(--accent-gold);
 }

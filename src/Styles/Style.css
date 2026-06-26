@@ -95,9 +95,17 @@ main {
 
 /* variables */
 :root {
-	--primary-color: #121416;
-	--secondary-color: ;
+	--primary-color: #0a0a0a;
+	--secondary-color: #161616; /*cards/secçoes*/
+	--tertiary-color: #1f1f1f; /*cards interiores*/
+	
 	--text-primary: #e2e2e5;
-	--text-secondary: #e9c176;
-	--text-tertiary: #8E9192;
+	--text-secondary: #aaaaaa;
+	--text-tertiary: #666666;
+	
+	--accent-gold: #c9a84c;
+	--accent-gold-light: #e8c96a;
+	--accent-red: #c0392b;
+	
+	--border-color: #2a2a2a;
 }
