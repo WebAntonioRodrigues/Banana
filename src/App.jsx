@@ -9,11 +9,26 @@ import Treinador from './Pages/Treinador';
 import '../src/Styles/Style.css';
 import epocas from './data/epocas.json';
 
-function App() {
+
+
+function contarTrofeus(epocas) {
+  const todos = epocas.flatMap(epoca => epoca.trofeus);
+  return {
+    primeiraLiga: todos.filter(t => t === "Primeira Liga").length,
+    supertaca: todos.filter(t => t === "Supertaça Cândido de Oliveira").length,
+    tacaLiga: todos.filter(t => t === "Taça da Liga").length,
+    tacaPortugal: todos.filter(t => t === "Taça de Portugal").length,
+    champions: todos.filter(t => t === "Champions League").length,
+  };
+}
+
+
+	function App() {
+	const trofeusTotais = contarTrofeus(epocas);
 	return (
 		<BrowserRouter>
 			<Navbar></Navbar>
-			<SubNavbar trofeus = {epocas.trofeus}></SubNavbar>
+			<SubNavbar trofeus = {trofeusTotais}></SubNavbar>
 
 			<Routes>
 				<Route path='/' element={<Home></Home>} />

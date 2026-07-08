@@ -8,10 +8,11 @@ import '../../Styles/Comun/SubNavbar.css';
 function SubNavbar({ trofeus = {}}) {
 	const listaTrofeus = [
 		{ nome: 'Primeira Liga', imagem: primeiraLigaImg, quantidade: trofeus.primeiraLiga },
-		{ nome: 'Supertaça', imagem: supertacaImg, quantidade: trofeus.supertaca },
-		{ nome: 'Taça da Liga', imagem: tacaLigaImg, quantidade: trofeus.tacaLiga },
 		{ nome: 'Taça de Portugal', imagem: tacaPortugalImg, quantidade: trofeus.tacaPortugal },
+		{ nome: 'Taça da Liga', imagem: tacaLigaImg, quantidade: trofeus.tacaLiga },
+		{ nome: 'Supertaça', imagem: supertacaImg, quantidade: trofeus.supertaca },
 		{ nome: 'Champions League', imagem: championsImg, quantidade: trofeus.champions },
+		{ nome: 'Europa League', imagem: championsImg, quantidade: trofeus.champions },
 	];
 
 	return (
