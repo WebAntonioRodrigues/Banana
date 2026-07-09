@@ -1,18 +1,64 @@
-import championsImg from '../../assets/trophy/Champions.png';
-import primeiraLigaImg from '../../assets/trophy/primeira-liga.png';
-import supertacaImg from '../../assets/trophy/supertaca.png';
-import tacaLigaImg from '../../assets/trophy/taca-liga.png';
-import tacaPortugalImg from '../../assets/trophy/taca-portugal.png';
+import { useState, useEffect } from 'react';
+import championsImg from '../../assets/Trophy/Champions.png';
+import primeiraLigaImg from '../../assets/Trophy/primeira-liga.png';
+import supertacaImg from '../../assets/Trophy/supertaca.png';
+import tacaLigaImg from '../../assets/Trophy/taca-liga.png';
+import tacaPortugalImg from '../../assets/Trophy/taca-portugal.png';
+import europaImg from '../../assets/Trophy/Europaleague.png';
+import supereuropaImg from '../../assets/Trophy/supercup.png';
+import mundialImg from '../../assets/Trophy/mundialclubes.png';
 import '../../Styles/Comun/SubNavbar.css';
 
-function SubNavbar({ trofeus = {}}) {
+function SubNavbar() {
+	const [trofeus, setTrofeus] = useState({
+		primeiraLiga: 0,
+		tacaPortugal: 0,
+		supertaca: 0,
+		tacaLiga: 0,
+		champions: 0,
+		Europa: 0,
+		supertacaEuropa: 0,
+		mundialclubes: 0,
+	});
+
+	useEffect(() => {
+		fetch('http://localhost:3000/api/trofeus')
+			.then(res => res.json())
+			.then(data => {
+				const totais = {
+					primeiraLiga: 0,
+					tacaPortugal: 0,
+					supertaca: 0,
+					tacaLiga: 0,
+					champions: 0,
+					europa: 0,
+					supertacaEuropa: 0,
+					mundialclubes:0,
+				};
+				data.forEach(item => {
+					if (item.trofeu === 'Primeira Liga') totais.primeiraLiga = item.quantidade;
+					if (item.trofeu === 'Taça de Portugal') totais.tacaPortugal = item.quantidade;
+					if (item.trofeu === 'Supertaça Cândido de Oliveira') totais.supertaca = item.quantidade;
+					if (item.trofeu === 'Taça da Liga') totais.tacaLiga = item.quantidade;
+					if (item.trofeu === 'Champions League') totais.champions = item.quantidade;
+					if (item.trofeu === 'Europa League') totais.europa = item.quantidade;
+					if (item.trofeu === 'Supertaça Europa') totais.supertacaEuropa = item.quantidade;
+					if (item.trofeu === 'Mundial de clubes') totais.mundialclubes = item.quantidade;
+				});
+				setTrofeus(totais);
+			})
+			.catch(err => console.error('Erro ao obter troféus:', err));
+	}, []);
+
 	const listaTrofeus = [
 		{ nome: 'Primeira Liga', imagem: primeiraLigaImg, quantidade: trofeus.primeiraLiga },
 		{ nome: 'Taça de Portugal', imagem: tacaPortugalImg, quantidade: trofeus.tacaPortugal },
-		{ nome: 'Taça da Liga', imagem: tacaLigaImg, quantidade: trofeus.tacaLiga },
 		{ nome: 'Supertaça', imagem: supertacaImg, quantidade: trofeus.supertaca },
+		{ nome: 'Taça da Liga', imagem: tacaLigaImg, quantidade: trofeus.tacaLiga },
 		{ nome: 'Champions League', imagem: championsImg, quantidade: trofeus.champions },
-		{ nome: 'Europa League', imagem: championsImg, quantidade: trofeus.champions },
+		{ nome: 'Europe League', imagem: europaImg, quantidade: trofeus.europa },
+		{ nome: 'Supertaça Europeia', imagem: supereuropaImg, quantidade: trofeus.supertacaEuropa },
+		{ nome: 'Mundial de clubes', imagem: mundialImg, quantidade: trofeus.mundialclubes },
 	];
 
 	return (
