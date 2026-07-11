@@ -1,0 +1,69 @@
+.perfil {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  background-color: var(--secondary-color);
+  padding: 32px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+
+
+}
+
+.perfil-foto img {
+  width: 180px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  filter:grayscale(20%)
+  
+  /* border: 1px solid green; */
+}
+
+.perfil-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.perfil-nome {
+  color: var(--text-primary);
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: Montserrat;
+}
+
+.perfil-cargo {
+  color: var(--accent-gold);
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-family: Inter;
+}
+
+.perfil-dados {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.perfil-dado {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.perfil-dado-label {
+  color: var(--text-tertiary);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: Montserrat;
+}
+
+.perfil-dado-valor {
+  color: var(--text-primary);
+  font-size: 13px;
+  font-family: Inter;
+}
