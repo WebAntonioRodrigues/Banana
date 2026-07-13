@@ -1,0 +1,11 @@
+.herocard {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  background-color: var(--secondary-color);
+  padding: 32px;
+  border-radius: 8px;
+  margin: 10px;
+   border: 1px solid var(--border-color);
+
+}
