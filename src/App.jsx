@@ -1,11 +1,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Comun/Navbar';
 import SubNavbar from './Components/Comun/SubNavbar';
+import Footer from './Components/Comun/footer';
 import Home from './Pages/Home';
 import Epoca from './Pages/Epoca';
 import Epocas from './Pages/Epocas';
 import Jogador from './Pages/Jogador';
 import Treinador from './Pages/Treinador';
+
 import '../src/Styles/Style.css';
 
 
@@ -22,6 +24,7 @@ function App() {
 				<Route path='/jogadores/:id' element={<Jogador />} />
 				<Route path='/treinadores/:id' element={<Treinador />} />
 			</Routes>
+			<Footer></Footer>
 		</BrowserRouter>
 	);
 }

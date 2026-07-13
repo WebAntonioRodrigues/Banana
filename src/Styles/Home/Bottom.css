@@ -1,0 +1,11 @@
+.bottom-section {
+	background-color: var(--secondary-color);
+	padding: 20px 40px;
+	display: flex;
+	align-items: center;
+	gap: 32px;
+	border-radius: 4px;
+	margin: 10px;
+	border: 1px solid var(--border-color);
+	border: 1px solid green;
+}
