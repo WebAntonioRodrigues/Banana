@@ -1,5 +1,6 @@
 .bottom-section {
 	background-color: var(--secondary-color);
+    height: 110px;
 	padding: 20px 40px;
 	display: flex;
 	align-items: center;
