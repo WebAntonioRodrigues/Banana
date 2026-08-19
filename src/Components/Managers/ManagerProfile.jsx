@@ -16,23 +16,25 @@ function ManagerProfile() {
 
 	if (!treinador) return <p>A carregar...</p>;
 
-	return (
-		<div>
-			<PerfilCard
-				foto={`/Managers/${treinador.foto}`}
-				nome={treinador.nome.toUpperCase()}
-				cargo='TREINADOR'
-				dados={[
-					{ label: 'Nome completo', valor: treinador.nome_completo },
-					{ label: 'Nacionalidade', valor: treinador.nacionalidade },
-					{ label: 'Naturalidade', valor: treinador.naturalidade },
-					{ label: 'Licença', valor: treinador.licenca },
-					{ label: 'Situação', valor: treinador.situacao },
-					{ label: 'Motivo de saída', valor: treinador.motivo_saida },
-				]}
-			/>
-		</div>
-	);
+    return (
+			<section>
+				<div className='herocard'>
+					<PerfilCard
+						foto={`/Managers/${treinador.foto}`}
+						nome={treinador.nome.toUpperCase()}
+						cargo='TREINADOR'
+						dados={[
+							{ label: 'Nome completo', valor: treinador.nome_completo },
+							{ label: 'Nacionalidade', valor: treinador.nacionalidade },
+							{ label: 'Naturalidade', valor: treinador.naturalidade },
+							{ label: 'Licença', valor: treinador.licenca },
+							{ label: 'Situação', valor: treinador.situacao },
+							{ label: 'Motivo de saída', valor: treinador.motivo_saida },
+						]}
+					/>
+				</div>
+			</section>
+		);
 }
 
 export default ManagerProfile;
