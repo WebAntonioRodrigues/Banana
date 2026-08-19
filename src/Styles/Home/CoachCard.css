@@ -1,0 +1,50 @@
+.coach-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+/* .coach-card-ativo {
+  border-color: var(--accent-gold);
+} */
+
+.coach-ponto {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.ponto-ativo {
+  background-color: var(--accent-green);
+}
+
+.ponto-demitido {
+  background-color: var(--accent-red);
+}
+
+.coach-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.coach-card-name {
+  color: var(--text-primary);
+  font-family: inter;
+  font-size: 11px;
+  font-weight: 00;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.coach-card-epoca {
+  color: var(--text-secondary);
+  font-family: inter;
+  font-size: 10px;
+}

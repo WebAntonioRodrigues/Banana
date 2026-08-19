@@ -16,10 +16,6 @@ function PerfilCard({ foto, nome, cargo, dados }) {
 						<div key={dado.label} className='perfil-dado'>
 							<span className='perfil-dado-label'>{dado.label}</span>
 							<span className='perfil-dado-valor'>{dado.valor}</span>
-							<br />
-							<span className='perfil-dado-label'>{dado.eleicao}</span>
-							<span className='perfil-dado-valor'>{dado.eleicao1}</span>
-							<span className='perfil-dado-valor'>{dado.eleicao2}</span>
 						</div>
 					))}
 				</div>

@@ -1,5 +1,10 @@
+import ManagerProfile from '../Components/Managers/ManagerProfile';
+
 function Treinador() {
-	return <section></section>;
+	return <section>
+
+		<ManagerProfile></ManagerProfile>
+	</section>;
 }
 
 export default Treinador;
